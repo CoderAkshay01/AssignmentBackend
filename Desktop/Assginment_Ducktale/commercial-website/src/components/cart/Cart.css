@@ -1,0 +1,40 @@
+
+.cart-header{
+    background-color: rebeccapurple;
+}
+.cart-header ul {
+    list-style: none;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+.product-info{
+      display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.product-name{
+    cursor: pointer;
+}
+.product-name span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.totalSum{
+    background-color: rgb(0, 225, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 30px;
+}
